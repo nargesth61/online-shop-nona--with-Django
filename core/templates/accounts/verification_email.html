@@ -1,0 +1,7 @@
+<!-- verification_email.html -->
+{% autoescape off %}
+Hello {{ user.username }},
+
+Please click on the following link to activate your account:
+{{ domain }}{% url  'accounts:verify_email' uidb64=uid token=token %}
+{% endautoescape %}

@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'nonaweb',
     'shop',
     'cart',
-    
+    'order',
 ]
 
 MIDDLEWARE = [

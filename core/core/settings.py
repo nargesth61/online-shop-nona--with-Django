@@ -40,11 +40,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'accounts',
+    'order',
     'panels',
     'nonaweb',
     'shop',
     'cart',
-    'order',
+    
 ]
 
 MIDDLEWARE = [

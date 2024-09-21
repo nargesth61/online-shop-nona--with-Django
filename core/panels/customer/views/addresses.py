@@ -1,8 +1,8 @@
 from django.views.generic import UpdateView,DeleteView,CreateView,ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from .permissions import HasCustomerAccessPermission
+from panels.permissions import HasCustomerAccessPermission
 
-from .customer.forms import *
+from panels.customer.forms import *
 from django.contrib.messages.views import SuccessMessageMixin
 from django.urls import reverse_lazy
 from django.shortcuts import redirect

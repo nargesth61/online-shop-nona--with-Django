@@ -7,5 +7,6 @@ urlpatterns = [
     path("home/",views.DashboardHomeView.as_view(),name="home"),
    
     path("admin/",include('panels.admin.urls')),
-    path("costomer/",include('panels.costomer.urls')),
+    
+    path("customer/",include('panels.customer.urls')),
 ]
